@@ -20,7 +20,7 @@ export PATH="$GOBIN:$PATH"
 ## generate the protocol buffer code
 (this step is optional since the generated code is shipped along in ths repository)
 ```
-$ go run calculator_client/client.go
+$./generate.sh
 ```
 
 ## running the gRPC Server
